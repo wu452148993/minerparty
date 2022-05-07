@@ -1,0 +1,18 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.minerparty.client.mixin",
+  "compatibilityLevel": "JAVA_8",
+  "mixins": [
+    "ClientConnectionMixin",
+    "ConnectScreenMixin",
+    "IntegratedServerMixin",
+    "MultiplayerServerListPingerMixin",
+    "ServerNetworkIoMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "refmap": "minerparty-refmap.json"
+}

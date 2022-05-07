@@ -29,6 +29,9 @@ dependencies {
 
 	// PSA: Some older mods, compiled on Loom 0.2.1, might have outdated Maven POMs.
 	// You may need to force-disable transitiveness on them.
+	implementation group: 'org.java-websocket', name: 'Java-WebSocket', version: '1.5.1'
+	implementation group: 'org.slf4j', name: 'slf4j-api', version: '1.7.25'
+	implementation group: 'com.simtechdata', name: 'WaifUPnP', version: '1.0'
 }
 
 processResources {

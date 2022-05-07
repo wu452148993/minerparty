@@ -1,0 +1,42 @@
+{
+  "mappings": {
+    "com/minerparty/client/mixin/MultiplayerServerListPingerMixin": {
+      "add(Lnet/minecraft/client/network/ServerInfo;Ljava/lang/Runnable;)V": "Lnet/minecraft/class_644;method_3003(Lnet/minecraft/class_642;Ljava/lang/Runnable;)V"
+    },
+    "com/minerparty/client/mixin/ServerNetworkIoMixin": {
+      "bind(Ljava/net/InetAddress;I)V": "Lnet/minecraft/class_3242;method_14354(Ljava/net/InetAddress;I)V"
+    },
+    "com/minerparty/client/mixin/IntegratedServerMixin": {
+      "shutdown()V": "Lnet/minecraft/class_1132;method_3782()V",
+      "openToLan(Lnet/minecraft/world/GameMode;ZI)Z": "Lnet/minecraft/class_1132;method_3763(Lnet/minecraft/class_1934;ZI)Z"
+    },
+    "com/minerparty/client/mixin/ConnectScreenMixin": {
+      "run()V": "Lnet/minecraft/class_412$1;run()V",
+      "net/minecraft/client/gui/screen/ConnectScreen$1": "net/minecraft/class_412$1"
+    },
+    "com/minerparty/client/mixin/ClientConnectionMixin": {
+      "connect(Ljava/net/InetAddress;IZ)Lnet/minecraft/network/ClientConnection;": "Lnet/minecraft/class_2535;method_10753(Ljava/net/InetAddress;IZ)Lnet/minecraft/class_2535;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/minerparty/client/mixin/MultiplayerServerListPingerMixin": {
+        "add(Lnet/minecraft/client/network/ServerInfo;Ljava/lang/Runnable;)V": "Lnet/minecraft/class_644;method_3003(Lnet/minecraft/class_642;Ljava/lang/Runnable;)V"
+      },
+      "com/minerparty/client/mixin/ServerNetworkIoMixin": {
+        "bind(Ljava/net/InetAddress;I)V": "Lnet/minecraft/class_3242;method_14354(Ljava/net/InetAddress;I)V"
+      },
+      "com/minerparty/client/mixin/IntegratedServerMixin": {
+        "shutdown()V": "Lnet/minecraft/class_1132;method_3782()V",
+        "openToLan(Lnet/minecraft/world/GameMode;ZI)Z": "Lnet/minecraft/class_1132;method_3763(Lnet/minecraft/class_1934;ZI)Z"
+      },
+      "com/minerparty/client/mixin/ConnectScreenMixin": {
+        "run()V": "Lnet/minecraft/class_412$1;run()V",
+        "net/minecraft/client/gui/screen/ConnectScreen$1": "net/minecraft/class_412$1"
+      },
+      "com/minerparty/client/mixin/ClientConnectionMixin": {
+        "connect(Ljava/net/InetAddress;IZ)Lnet/minecraft/network/ClientConnection;": "Lnet/minecraft/class_2535;method_10753(Ljava/net/InetAddress;IZ)Lnet/minecraft/class_2535;"
+      }
+    }
+  }
+}

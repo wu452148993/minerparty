@@ -1,37 +1,35 @@
 {
   "schemaVersion": 1,
-  "id": "modid",
-  "version": "${version}",
-
-  "name": "Example Mod",
-  "description": "This is an example description! Tell everyone what your mod is about!",
-  "authors": [
-    "Me!"
-  ],
-  "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
-  },
-
-  "license": "CC0-1.0",
-  "icon": "assets/modid/icon.png",
-
-  "environment": "*",
+  "id": "minerparty",
+  "version": "1.0-ALPHA-1.16.5",
+  "name": "MinerParty",
+  "description": "",
+  "authors": [],
+  "contact": {},
+  "license": "BSD-2-Clause-FreeBSD",
+  "environment": "client",
   "entrypoints": {
-    "main": [
-      "net.fabricmc.example.ExampleMod"
+    "client": [
+      "com.minerparty.client.MinerParty"
     ]
   },
   "mixins": [
-    "modid.mixins.json"
+    "fabricmod.mixins.json"
   ],
-
   "depends": {
     "fabricloader": ">=0.7.4",
     "fabric": "*",
     "minecraft": "1.16.x"
   },
-  "suggests": {
-    "another-mod": "*"
-  }
+  "jars": [
+    {
+      "file": "META-INF/jars/Java-WebSocket-1.5.1.jar"
+    },
+    {
+      "file": "META-INF/jars/slf4j-api-1.7.25.jar"
+    },
+    {
+      "file": "META-INF/jars/upnp-1.1.jar"
+    }
+  ]
 }
